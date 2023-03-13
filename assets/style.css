@@ -7,13 +7,18 @@
 }
 
 html{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 li a{
     text-decoration: none;
 }
 
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4.5rem;
+    padding: 4rem;
+}
 
 /*Barra del menu*/
 
@@ -26,6 +31,7 @@ li a{
     left: 0;
     right: 0;
     padding-inline: 1rem;
+    background-color: white;
 }
 
 .main-menu{
@@ -53,9 +59,65 @@ li a{
     color: black;
 }
 
-/* Header- bg-lightblue*/
+/* header - testo e immagine di presentazione*/
 
 .container-bg{
-    height: 200vh;
+    width: 100%;
     background-color: rgb(180, 209, 224);
+}
+
+.main-intro{
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.text-img{
+    display: flex;
+    gap: 1rem;
+}
+
+.jumbo img{
+    width: 100%;
+}
+
+.text-img .text{
+    flex: 0 0 30%;
+    padding: 1rem, 0.5rem;
+}
+
+.text-img .jumbo{
+    flex: 0 0 70%;
+    margin-bottom: -5rem;
+}
+
+.text p{
+    font-size: 12px;
+    margin-left: 4rem;
+    padding: 1rem, 0.5rem;
+}
+
+.text-info{
+    margin-top: 3rem;
+}
+
+.btn{
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.btn-prova{
+    background-color: rgb(12, 103, 249);
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.arrow-down{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 3.5rem;
+    margin-top: 5rem;
+    color: black;
 }
