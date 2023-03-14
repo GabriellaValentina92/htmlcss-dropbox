@@ -7,7 +7,7 @@
 }
 
 html{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 li a{
@@ -18,6 +18,10 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 4.5rem;
     padding: 4rem;
+}
+
+h2{
+    font-size: 2rem;
 }
 
 /*Barra del menu*/
@@ -32,6 +36,7 @@ h1{
     right: 0;
     padding-inline: 1rem;
     background-color: white;
+    white-space: nowrap;
 }
 
 .main-menu{
@@ -121,3 +126,149 @@ h1{
     margin-top: 5rem;
     color: black;
 }
+
+/* Main - misure container*/
+
+.container-sections{
+    width: 50%;
+    margin-inline: auto;
+    margin-top: 9rem;
+    
+}
+
+/* h2 e check-circle*/
+
+.circle{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 0.5rem;
+}
+
+.circle-full{
+    height: 1.2rem;
+    width: 1.2rem;
+    border: 0.3rem solid rgb(12, 103, 249);
+    background-color: white;
+    border-radius: 0.6rem;
+}
+
+.circle-empty{
+    height: 1.2rem;
+    width: 1.2rem;
+    border: 0.2rem solid lightgrey;
+    background-color: white;
+    border-radius: 0.6rem;
+}
+
+.fatturazione{
+    margin-right: 3rem;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.fatturazione1{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/*  sezione1- 3 colonne-verticali */
+
+.cards-column{
+    display: flex;
+    gap: 3rem;
+}
+
+.card1, .card2, .card3{
+    flex: 0 0 calc((50% - (3rem * 2)) / 3);
+    flex-wrap: nowrap;
+    border: 1px solid lightgray;
+    margin-top: 3rem;
+}
+
+.user{
+    height: 5vh;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0.6rem;
+    border: 1px solid lightgray;
+}
+
+.general-info{
+    padding: 2rem 1rem;
+}
+
+.mese{
+    line-height: 0.7rem;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+    color: lightgray;
+}
+
+.info, .prova, .check-point{
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.link-prova{
+    width: 15rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(12, 103, 249);
+}
+
+.link-prova a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 1rem, 2rem;
+    color: white;
+}
+
+.btn-acquista{
+    margin-top: 1.5rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+.check{
+    color: rgb(12, 103, 249);
+}
+
+/*Riquadro info-orizzontale*/
+
+.card4{
+    margin-top: 2rem;
+    border: 1px solid lightgrey;
+}
+
+.team-info{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    padding-top: 2rem;
+    white-space: nowrap;
+}
+
+.contatti{
+    line-height: 3rem;
+}
+
+.btn-contatti a{
+    display: inline-block;
+    height: 2rem;
+    width: 15rem;
+    font-size: 1rem;
+    padding: 2rem, 4rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(12, 103, 249);
+}
+
+.card4 p{
+    padding-inline: 2rem;
+    margin-top: 2rem;
+}
+
