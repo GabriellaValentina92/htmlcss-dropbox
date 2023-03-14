@@ -31,6 +31,7 @@ h2{
     padding-inline: 1rem;
     background-color: white;
     white-space: nowrap;
+    z-index: 2;
 }
 
 .main-menu{
@@ -347,4 +348,131 @@ h5{
 .sct-scopri h1{
     font-size: 2rem;
     margin-bottom: 2rem;
+}
+
+/* Sezione5- loghi e quadrati colorati*/
+
+.adv-design{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+
+}
+
+.adv-logo{
+    flex: 0 0 calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.design-quote{
+    flex: 0 0 calc(100% / 3);
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(240, 240, 239);
+    padding: 2rem 2rem;
+    overflow: auto;
+}
+
+.quadrato-img{
+    height: 250px;
+    width: 250px;
+}
+
+.adv-logo img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    filter: invert(1);
+}
+
+.design-quote img{
+    width: 40%;
+}
+
+.quote p{
+    font-size: 0.8rem;
+    margin-top: 4rem;
+}
+
+.quote div{
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+
+.adv-logo .design{
+    border: 10px solid #D1E9CD;
+    background-color: #A2D39B;
+}
+
+.adv-logo .asu{
+    background-color: #61082B;
+}
+
+.adv-logo .topps{
+    background-color: #FF1C1C;
+}
+
+.adv-logo .florida{
+    background-color: #0093CE;
+}
+
+.adv-logo .bicycle{
+    background-color: red;
+}
+
+.adv-logo .hearst-corp{
+    background-color: #B4D0E7;
+}
+
+.adv-logo .lonely-planet{
+    background-color: #0D2481;
+}
+
+.adv-logo .clear-channel{
+    background-color: #FFD830;
+}
+
+.cactus{
+    margin-top: 10rem;
+}
+
+.dp-business{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B4D0E7;
+    gap: 3rem;
+    padding: 4rem;
+}
+
+.dp-business h2{
+    color: #61082B;
+}
+
+.dp-business a{
+    background-color: white;
+    padding: 0.6rem;
+    color: black;
+    text-decoration: none;
+}
+
+.domande h2{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.domande p{
+    margin-bottom: 2rem;
+}
+
+.chevron-icon{
+    margin-left: 10rem;
 }
