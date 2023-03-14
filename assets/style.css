@@ -14,12 +14,6 @@ li a{
     text-decoration: none;
 }
 
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4.5rem;
-    padding: 4rem;
-}
-
 h2{
     font-size: 2rem;
 }
@@ -72,9 +66,14 @@ h2{
 }
 
 .main-intro{
-    width: 70%;
+    width: 1100px;
     margin: auto;
     margin-top: 4rem;
+}
+
+.main-intro h1{
+    font-size: 4.5rem;
+    padding-top: 2rem;
 }
 
 .text-img{
@@ -129,10 +128,10 @@ h2{
 
 /* Main - misure container*/
 
-.container-sections{
-    width: 50%;
+.container-section{
+    max-width: 900px;
     margin-inline: auto;
-    margin-top: 9rem;
+    margin-top: 5rem;
     
 }
 
@@ -179,9 +178,9 @@ h2{
     gap: 3rem;
 }
 
-.card1, .card2, .card3{
-    flex: 0 0 calc((50% - (3rem * 2)) / 3);
-    flex-wrap: nowrap;
+.card{
+    flex: 0 0 calc((100% - (3rem * 2)) / 3);
+    flex-wrap: wrap;
     border: 1px solid lightgray;
     margin-top: 3rem;
 }
@@ -274,12 +273,6 @@ h5{
 
 /*sezione2- Img&text*/
 
-.container-section2{
-    width: 50%;
-    margin-inline: auto;
-    margin-top: 5rem;
-}
-
 .sct2{
     display: flex;
     align-items: center;
@@ -311,4 +304,47 @@ h5{
     padding: 0.7rem;
     color: black;
     border: 1px solid black;
+}
+
+/* sezione3 -Servizi Dropbox cards*/
+
+.db-business{
+    margin-bottom: 3rem;
+    padding-inline: 2rem;
+}
+
+.sct3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.card-service{
+    flex: 0 1 calc((100% - (2rem * 3)) / 3);
+}
+
+.card-service img{
+    max-width: 200px;
+    margin-bottom: 2rem;
+}
+
+.card-service h4{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.card-service p{
+    font-size: 0.8rem;
+    padding-left: 1.5rem;
+}
+
+/*sezione4- btn-Scopri di più*/
+.sct-scopri{
+    max-width: 500px;
+}
+.sct-scopri h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
