@@ -417,59 +417,109 @@ h5{
 }
 
 .adv-logo .design{
-    border: 10px solid #D1E9CD;
-    background-color: #A2D39B;
+    background-color: #A2D39B; 
+}
+
+.adv-logo .design:hover{
+    border: 8px solid #D1E9CD;
 }
 
 .adv-logo .asu{
     background-color: #61082B;
 }
 
+.adv-logo .asu:hover{
+    border: 8px solid #9b194d;
+}
+
 .adv-logo .topps{
     background-color: #FF1C1C;
+}
+
+.adv-logo .topps:hover{
+    border: 8px solid #fa5647;
 }
 
 .adv-logo .florida{
     background-color: #0093CE;
 }
 
+.adv-logo .florida:hover{
+    border: 8px solid #59bdf3;
+}
+
 .adv-logo .bicycle{
     background-color: #FF1C1C;
+}
+
+.adv-logo .bicycle:hover{
+    border: 8px solid #f16684;
 }
 
 .adv-logo .hearst-corp{
     background-color: #B4D0E7;
 }
 
+.adv-logo .hearst-corp:hover{
+    border: 8px solid #3298ec;
+}
+
 .adv-logo .lonely-planet{
     background-color: #0D2481;
+}
+
+.adv-logo .lonely-planet:hover{
+    border: 8px solid #687fda;
 }
 
 .adv-logo .clear-channel{
     background-color: #FFD830;
 }
 
+.adv-logo .clear-channel:hover{
+    border: 8px solid #f4b922;
+}
+
+/* Dropbox-business btn-prova gratuita*/
+
+.dp-bgcolor{
+    background-color: #B4D0E7;
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
 .dp-business{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #B4D0E7;
     gap: 3rem;
     padding: 4rem;
 }
 
 .dp-business h2{
+    flex: 0 0 60%;
     color: #61082B;
+}
+
+.dp-business div{
+    flex: 0 0 calc(40% - 3rem);
 }
 
 .dp-business a{
     background-color: white;
-    padding: 0.6rem;
+    padding: 0.4rem;
     color: black;
     text-decoration: none;
 }
 
 /* Sezione-Domande Frequenti*/
+
+.domande{
+    margin-bottom: 8rem;
+}
 
 .domande h2{
     font-size: 1.5rem;
