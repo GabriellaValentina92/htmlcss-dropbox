@@ -67,7 +67,7 @@ h2{
 }
 
 .main-intro{
-    width: 1100px;
+    width: 1200px;
     margin: auto;
     margin-top: 4rem;
 }
@@ -130,7 +130,7 @@ h2{
 /* Main - misure container*/
 
 .container-section{
-    max-width: 900px;
+    max-width: 1000px;
     margin-inline: auto;
     margin-top: 5rem;
     
@@ -247,47 +247,52 @@ h5{
 .team-info{
     display: flex;
     justify-content: space-between;
-    padding-inline: 2rem;
-    padding-top: 2rem;
-    white-space: nowrap;
+    padding: 1rem 1.5rem;
 }
 
 .contatti{
-    line-height: 3rem;
+    flex: 0 0 60%;
+}
+
+.contatti h3, .contatti h4{
+    line-height: 2rem;
+}
+
+.contatti p{
+    margin-top: 2rem;
+}
+
+.btn-contatti{
+    flex: 0 0 30%;
+    margin-top: 1rem;
 }
 
 .btn-contatti a{
-    display: inline-block;
-    height: 2rem;
-    width: 15rem;
     font-size: 1rem;
-    padding: 2rem, 4rem;
+    padding: 0.3rem;
     text-decoration: none;
     color: white;
     background-color: rgb(12, 103, 249);
-}
-
-.card4 p{
-    padding-inline: 2rem;
-    margin-top: 2rem;
 }
 
 /*sezione2- Img&text*/
 
 .sct2{
     display: flex;
-    align-items: center;
     gap: 2rem;
 }
 
 .sct2 img{
     min-width: 0;
     flex: 0 0 60%;
-    ma
 }
 
 .sct2 .text{
-    flex: 0 0 40%;
+    flex: 0 0 calc(40% - 2rem);
+}
+
+.text1{
+    padding-top: 2rem;
 }
 
 .text1 h3{
@@ -326,7 +331,7 @@ h5{
 }
 
 .card-service img{
-    max-width: 200px;
+    width: 100%;
     margin-bottom: 2rem;
 }
 
@@ -353,7 +358,6 @@ h5{
 /* Sezione5- loghi e quadrati colorati*/
 
 .adv-design{
-    width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -372,14 +376,15 @@ h5{
 .design-quote{
     flex: 0 0 calc(100% / 3);
     flex-wrap: wrap;
+    width: 100%;
     height: 500px;
-    width: 500px;
     background-color: rgb(240, 240, 239);
     padding: 2rem 2rem;
     overflow: auto;
 }
 
 .quadrato-img{
+    flex: 0 0 calc(100% / 2);
     height: 250px;
     width: 250px;
 }
@@ -425,7 +430,7 @@ h5{
 }
 
 .adv-logo .bicycle{
-    background-color: red;
+    background-color: #FF1C1C;
 }
 
 .adv-logo .hearst-corp{
@@ -438,10 +443,6 @@ h5{
 
 .adv-logo .clear-channel{
     background-color: #FFD830;
-}
-
-.cactus{
-    margin-top: 10rem;
 }
 
 .dp-business{
@@ -464,15 +465,76 @@ h5{
     text-decoration: none;
 }
 
+/* Sezione-Domande Frequenti*/
+
 .domande h2{
     font-size: 1.5rem;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 2rem;
     margin-bottom: 2rem;
 }
 
 .domande p{
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 2rem;
     margin-bottom: 2rem;
 }
 
 .chevron-icon{
-    margin-left: 10rem;
+    margin-left: 20rem;
+}
+
+/*Footer*/
+
+footer{
+     background-color: #000;
+}
+
+.container-footer{
+    width: 1200px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-column{
+    flex: 0 0 calc(100% / 5);
+    padding-bottom: 3rem;
+}
+
+.footer-column h4{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 3rem;
+}
+
+.footer-column a{
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.footer-link li{
+    list-style: none;
+}
+
+.footer-link .dp-border{
+    border-bottom: 1px solid lightgrey;
+}
+
+.footer-logo{
+    font-size: 0.6rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.footer-logo .chevron-up{
+    padding-inline: 0.4rem;
+    font-size: 0.4rem;
 }
